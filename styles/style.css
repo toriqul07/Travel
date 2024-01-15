@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar style here */
+.special {
+    color: #FF5400;
+}
+
+.header-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background: #FFF;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.nav-container img {
+    /* width:90px; */
+    object-fit: cover;
+}
+
+.nav-container p {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-container a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.items-container .sp a {
+    background-color: #FF5400;
+}
+
+.banner-section h1 {
+    /* color: #FFF; */
+    /* border: 2px solid red; */
+    font-family: Mulish;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 280px;
+    margin-bottom: 20px;
+
+}
+
+.banner-section p {
+    /* color: #FFF; */
+    text-align: center;
+    /* border: 2px solid red; */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.where-when-select-find {
+    /* margin-top: 46px;
+    display: flex;
+    background-color: ;
+    gap: 20px;
+    justify-content: center;
+    align-items: center; */
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-left: 295px;
+    /* margin-right: 195px; */
+}
+
+.where-when-select-find .where input {
+    border-radius: 8px;
+    font-family: Mulish;
+    background: #FFF;
+    padding: 5px;
+}
+
+.where-when-select-find .when select {
+    padding: 5px;
+    font-family: Mulish;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.where-when-select-find .Select-Type select {
+    padding: 5px;
+    font-family: Mulish;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.where-when-select-find .Search-icon {
+    padding: 10px;
+    display: flex;
+    font-family: Mulish;
+    background-color: #FF5400;
+    gap: 5px;
+}
+
+.banner-container {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+
+/* smaller device */
+@media screen and (max-width:600px) {
+    .header-section {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .nav-container {
+        margin-left: 40px;
+    }
+
+    .items-container {
+        flex-direction: column;
+        margin-left: 50px;
+        gap: 20px;
+    }
+
+    .items-container a {
+        font-size: 9px;
+        font-weight: 200;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        width: 335px;
+        height: 483px;
+    }
+
+    .banner-section h1 {
+        font-size: 20px;
+        color: #FFF;
+        font-weight: 700;
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+        /* margin-bottom: 20px; */
+
+    }
+
+    .banner-section p {
+        font-size: 14px;
+        color: #FFF;
+
+    }
+
+    .where-when-select-find {
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        margin-left: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+   .where-when-select-find .where input {
+
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+    } 
+   .where-when-select-find .when select {
+
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+    } 
+   .where-when-select-find .Select-Type select{
+
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+    } 
+   .where-when-select-find .Search-icon {
+
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+        padding-left: 80px;
+        padding-top: 20px;
+    } 
+    
+
+}
