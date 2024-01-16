@@ -10,7 +10,7 @@
 }
 
 .header-section {
-   width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     background: #FFF;
@@ -235,46 +235,200 @@ flex-shrink: 0; */
 .maldives {
     grid-column: 1/span 6;
     width: 523px;
-height: 300px;
+    height: 300px;
 }
 
 .indonesia {
     grid-column: 7/span 6;
     width: 523px;
-height: 300px;
+    height: 300px;
 }
 
 .Srilanka {
     grid-column: 1/span 3;
     width: 374px;
-height: 266px;
+    height: 266px;
 }
-.North-America{
+
+.North-America {
     grid-column: 4/span 5;
     width: 474px;
-height: 266px;
-margin-left: 20px;
+    height: 266px;
+    margin-left: 20px;
 }
-.Kashmir{
+
+.Kashmir {
     grid-column: 9/span 4;
     width: 274px;
     margin-left: 40px;
     /* margin-right: 180px; */
-height: 266px;
+    height: 266px;
 }
-.Bangladesh{
+
+.Bangladesh {
     grid-column: 1/span 5;
     width: 473px;
-height: 300px;
+    height: 300px;
 }
-.Bandarban{
+
+.Bandarban {
     grid-column: 6/span 7;
     width: 633px;
-height: 300px;
-margin-right: 40px;
+    height: 300px;
+    margin-right: 40px;
 }
+
 .world-country img {
     width: 100%;
+}
+
+.why-choose {
+    margin-top: 40px;
+
+}
+
+.why-choose h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.why-choose p {
+    /* width: 643px; */
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.handpick-world-class {
+    /* border: 2px solid red; */
+    display: flex;
+    width: 1210px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Handpicked-Hotel img {
+    width: 64px;
+    height: 64px;
+}
+
+.Handpicked-Hotel h1,
+.World-Class-Service h1,.Best-Price h1,.newsletter-text h1 {
+    color: #131318;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Handpicked-Hotel p,
+.World-Class-Service p,.Best-Price p,.newsletter-text p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.Handpicked-Hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.World-Class-Service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+
+}
+
+.World-Class-Service img {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Best-Price {
+    border-radius: 16px;
+    margin-top: 40px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    margin-left: 400px;
+}
+
+.Newsletter-text-img-section{
+    /* margin-top: 60px; */
+    padding-top: 40px;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+    width: 1210px;
+    margin: 0 auto;
+    height: 500px;
+}
+.Newsletter-text-img-section .newsletter-text{
+    width: 50%;
+    /* border: 2px solid yellow; */
+}
+.newsletter-text{
+    padding: 20px;
+    height: 200px;
+}
+.Newsletter-text-img-section .newsletter-text .subscribe{
+    margin-top: 20px;
+    width: 173px;
+    height: 22px;
+    flex-shrink: 0;
+    border-radius: 8px;
+background: #FF5400
+}
+.Newsletter-text-img-section .newsletter-text input{
+    margin-top: 20px;
+}
+
+.Newsletter-text-img-section .newsletter-img{
+    width: 50%;
+    width: 672px;
+height: 422px;
+flex-shrink: 0;
+    background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+}
+.newsletter-img{
+    position: relative;
+}
+.newsletter-img .btn{
+    width: 324px;
+height: 120px;
+position: absolute;
+top:60%;
+left: 50%;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+border-radius: 16px;
+background: #FF5400;
 }
 
 /* smaller device */
@@ -376,6 +530,10 @@ margin-right: 40px;
         width: 185px;
         height: 182px;
         flex-shrink: 0;
+    }
+
+    .world-country {
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
