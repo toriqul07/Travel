@@ -10,7 +10,7 @@
 }
 
 .header-section {
-    max-width: 1200px;
+   width: 1200px;
     margin: 0 auto;
     display: flex;
     background: #FFF;
@@ -135,11 +135,146 @@
 
 .banner-container {
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
-    width: 1170px;
+    width: 1210px;
     height: 500px;
     flex-shrink: 0;
     border-radius: 16px;
     margin: 0 auto;
+}
+
+.popular-tour {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 100px;
+    background: #FFF;
+}
+
+.popular-tour-text {
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.popular-tour-text h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.popular-tour-text .dolar,
+.list li {
+    color: rgba(19, 19, 24, 0.70);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.popular-tour-text .dolar {
+    margin-bottom: 40px;
+}
+
+.popular-tour-img {
+    margin-top: 40px;
+    width: 50%;
+    /* border: 2px solid red; */
+    width: 540px;
+    height: 550px;
+}
+
+.list li {
+    margin-bottom: 30px;
+}
+
+.special-btn {
+    color: #FF5400;
+    /* width: 174px;
+height: 52px;
+flex-shrink: 0; */
+    padding: 10px;
+}
+
+.Destination-text h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 40px;
+}
+
+.Destination-text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.world-country {
+    width: 1210px;
+    height: 1000px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.maldives {
+    grid-column: 1/span 6;
+    width: 523px;
+height: 300px;
+}
+
+.indonesia {
+    grid-column: 7/span 6;
+    width: 523px;
+height: 300px;
+}
+
+.Srilanka {
+    grid-column: 1/span 3;
+    width: 374px;
+height: 266px;
+}
+.North-America{
+    grid-column: 4/span 5;
+    width: 474px;
+height: 266px;
+margin-left: 20px;
+}
+.Kashmir{
+    grid-column: 9/span 4;
+    width: 274px;
+    margin-left: 40px;
+    /* margin-right: 180px; */
+height: 266px;
+}
+.Bangladesh{
+    grid-column: 1/span 5;
+    width: 473px;
+height: 300px;
+}
+.Bandarban{
+    grid-column: 6/span 7;
+    width: 633px;
+height: 300px;
+margin-right: 40px;
+}
+.world-country img {
+    width: 100%;
 }
 
 /* smaller device */
@@ -197,32 +332,50 @@
         gap: 16px;
     }
 
-   .where-when-select-find .where input {
+    .where-when-select-find .where input {
 
         width: 255px;
         height: 52px;
         flex-shrink: 0;
-    } 
-   .where-when-select-find .when select {
+    }
+
+    .where-when-select-find .when select {
 
         width: 255px;
         height: 52px;
         flex-shrink: 0;
-    } 
-   .where-when-select-find .Select-Type select{
+    }
+
+    .where-when-select-find .Select-Type select {
 
         width: 255px;
         height: 52px;
         flex-shrink: 0;
-    } 
-   .where-when-select-find .Search-icon {
+    }
+
+    .where-when-select-find .Search-icon {
 
         width: 255px;
         height: 52px;
         flex-shrink: 0;
         padding-left: 80px;
         padding-top: 20px;
-    } 
-    
+    }
+
+    .popular-tour {
+        flex-direction: column;
+    }
+
+    .popular-tour-text {
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .popular-tour-img {
+        margin-top: 5px;
+        width: 185px;
+        height: 182px;
+        flex-shrink: 0;
+    }
 
 }
